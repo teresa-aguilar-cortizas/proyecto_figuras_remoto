@@ -1,2 +1,4 @@
 *.txt
 !importante.txt
+__pycache__/
+*.pyc
