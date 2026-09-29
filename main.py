@@ -1,4 +1,5 @@
 from lib import cuadrado, triangulo, rectangulo
+from math import pi
 print("Proyecto figuras")
 print(cuadrado.get_identificador())
 lado=4
@@ -13,3 +14,6 @@ print(rectangulo.get_identificador())
 print(f"El area de un {rectangulo.get_identificador()} de base {base}\
       y altura {altura} es: {rectangulo.get_area(base,altura)}\
         y el perimetro es: {rectangulo.get_perimetro(base,altura)}")
+
+def get_area(radio:float) -> float:
+    return pi * radio**2
